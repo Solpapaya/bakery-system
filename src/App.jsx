@@ -48,7 +48,6 @@ function App() {
             }
           >
             <Route index element={<Navigate replace to="tickets" />} />
-            <Route path="dashboard" element={<Dashboard />} />
             <Route path="tickets" element={<Tickets />} />
             <Route
               path="tickets/new"
