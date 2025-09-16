@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import styled, { css } from "styled-components";
 import { HiOutlineMagnifyingGlass, HiOutlineXMark } from "react-icons/hi2";
 import TagWithIcon from "./TagWithIcon";
-import Dropdown from "./Dropdown";
+import Dropdown from "./DropDown";
 import { useItems } from "../context/ItemsContext";
 import { HEADER_HEIGHT } from "../constants/header";
 import { DROPDOWN_SEARCH_BAR_HEIGHT } from "../constants/ui";
